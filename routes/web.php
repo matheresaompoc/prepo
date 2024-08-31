@@ -22,3 +22,6 @@ Route::get('/navbar', function () {
 });
 
 
+Route::get('/intro', function () {
+    return view('intro');
+});
