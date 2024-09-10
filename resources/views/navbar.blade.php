@@ -1,10 +1,8 @@
-<!-- resources/views/dashboard.blade.php -->
+<!-- resources/views/navbar.blade.php -->
 
-
-
-@section('content')
 <style>
     .navbar{
+        background: rgb(30, 30, 30);
     height: 5rem;
     width: 100vw;
     max-width: 75rem;
@@ -64,19 +62,15 @@
      
     }
 </style>
-    <!-- Your page content here -->
-     <nav class="navbar">
-     <img src="{{ asset('logo3.png') }}" alt="Logo" class="logo">
-     <div class="menu">
-     <!--// resources/views/dashboard.blade.php-->
-    <script src="{{ asset('js/scroll-link.js') }}"></script>
+
+<nav class="navbar">
+    <img src="{{ asset('logo3.png') }}" alt="Logo" class="logo">
+    <div class="menu">
         <div class="menulist">Home</div>
         <div class="menulist">About</div>
-        <div class="menulist">Porfolio</div>
-        <div class="menulist">Client</div>
-     </div>
-     <button class="menubtn">
-     <img class="contact" src="{{ asset('contactpic.png') }}" alt="Contact"> Contact me
-     </button>
-    </nav>
-@endsection
+        <div class="menulist">Portfolio</div>
+    </div>
+    <button class="menubtn">
+        <img class="contact" src="{{ asset('contactpic.png') }}" alt="Contact"> Contact me
+    </button>
+</nav>

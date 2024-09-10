@@ -13,15 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// routes/web.php
+
 Route::get('/', function () {
-    return view('dashboard');
-});
-
-Route::get('/navbar', function () {
-    return view('navbar');
-});
-
-
-Route::get('/intro', function () {
-    return view('intro');
+    return view('dashboard'); // This loads all sections on one page
 });
