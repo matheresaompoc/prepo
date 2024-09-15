@@ -63,14 +63,22 @@
     }
 </style>
 
-<nav class="navbar">
+<<nav class="navbar">
     <img src="{{ asset('logo3.png') }}" alt="Logo" class="logo">
     <div class="menu">
-        <div class="menulist">Home</div>
-        <div class="menulist">About</div>
-        <div class="menulist">Portfolio</div>
+        <div class="menulist">
+            <a href="#home">Home</a>
+        </div>
+        <div class="menulist">
+            <a href="#about">About</a>
+        </div>
+        <div class="menulist">
+            <a href="#portfolio">Portfolio</a>
+        </div>
     </div>
     <button class="menubtn">
-        <img class="contact" src="{{ asset('contactpic.png') }}" alt="Contact"> Contact me
+        <img class="contact" src="{{ asset('contactpic.png') }}" alt="Contact">
+        <a href="#contact">Contact me</a>
     </button>
 </nav>
+

@@ -18,3 +18,4 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('dashboard'); // This loads all sections on one page
 });
+
